@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap/bootstrap.min.css">
+    <script src="bootstrap/bootstrap.bundle.min.js"></script>
+    <script src="bootstrap/jquery-3.6.0.min.js"></script>
+    <link rel="stylesheet" href="fontawesome/css/all.min.css">
+    <script src="bootstrap/sweetalert.min.js"></script>
+    <title>MY SHOP</title>
+</head>
+
+<body>
+    <style>
+        .nav-item:hover {
+            background-color: #53BF9D;
+        }
+    </style>
+
+    <body style="background-color:#D4F6CC">
+        <nav class="navbar navbar-expand-lg " style="background-color: #0F3D3E;">
+            <div class="container-fluid">
+                <h2 class="navbar-brand text-white"> MDV <i class="fas fa-shopping-bag" style="color: orange ;"></i>
+                    SHOP</h2>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse container" id="navbarNavDropdown"
+                    style="margin-left: 20%; padding:10px;">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-white" aria-current="page" href="home.html"
+                                style="border-right: solid thin black;"> <i class="fa fa-home" style="color:blue;"></i>
+                                HOME&nbsp;</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fs-4 text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="border-right: solid thin black;">
+                                <i class="fa fa-cog" style="color: gray;"></i> PRODUCTS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="products/men.html">Men</a></li>
+                                <li><a class="dropdown-item" href="products/women.html">Women</a></li>
+                                <li><a class="dropdown-item" href="products/kids.html">Kids</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fs-4 text-white" href="#" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false" style="border-right: solid thin black;">
+                                <i class="fa fa-mobile" style="color: green;"></i> GADGETS
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="gadgets/laptop.html">Laptops</a></li>
+                                <li><a class="dropdown-item" href="gadgets/mobile.html">Mobile</a></li>
+                            </ul>
+                        </li>&nbsp;
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-white" aria-current="page" href="about.html"
+                                style="border-right: solid thin black;"><i class="fa fa-user"
+                                    style="color: rgba(236, 90, 32, 0.342);"></i> ABOUT US</a>
+                        </li>&nbsp;
+                        <li class="nav-item">
+                            <a class="nav-link fs-4 text-white" aria-current="page" href="cart.html"><i
+                                    class="fa fa-shopping-cart" style="color:red;"></i> CART</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav><br>
+
+
+        <style>
+            .about-section {
+                background: url(images/payment.jpg) no-repeat left;
+                background-size: 55%;
+                background-color: #fdfdfd;
+                overflow: hidden;
+                height: 100%;
+                padding: 100px 0;
+            }
+
+            .inner-container {
+                width: 55%;
+                float: right;
+
+                padding: 150px;
+
+
+            }
+
+            .inner-container h1 {
+                margin-bottom: 30px;
+                font-size: 30px;
+                font-weight: 900;
+            }
+
+            .text {
+                font-size: 13px;
+                color: #545454;
+                line-height: 30px;
+                text-align: justify;
+                margin-bottom: 40px;
+            }
+
+            h1 {
+                color: #F85370;
+            }
+
+            .skills {
+                display: flex;
+                justify-content: space-between;
+                font-weight: 700;
+                font-size: 13px;
+            }
+
+            @media screen and (max-width:1200px) {
+                .inner-container {
+                    padding: 80px;
+                }
+            }
+
+            @media screen and (max-width:1000px) {
+                .about-section {
+                    background-size: 100%;
+                    padding: 100px 40px;
+                }
+
+                .inner-container {
+                    width: 100%;
+                }
+            }
+
+            @media screen and (max-width:600px) {
+                .about-section {
+                    padding: 0;
+                }
+
+                .inner-container {
+                    padding: 60px;
+                }
+            }
+
+            span {
+                cursor: pointer;
+                font-size: 16px;
+                text-align: center;
+                padding: 10px;
+                width: 500px;
+            }
+
+            span:hover {
+                background-image: linear-gradient(to right top, #f85370, #f35470, #ee5570, #e8556f, #e3566f);
+                color: #fff;
+                border-radius: 20px;
+                transition: 0.5s;
+
+            }
+
+            .active {
+                background-image: linear-gradient(to right top, #f85370, #f35470, #ee5570, #e8556f, #e3566f);
+            }
+        </style>
+
+
+        <div class="about-section container">
+            <div class="inner-container">
+                <h1>About Us</h1>
+                <p class="text">
+                    Mdv Shop is a vast Internet -based enterprise that sells books, music, movies, housewares,
+                    electronics, toys,
+                    and many other goods, either directly or as the middleman between other retailers and mdvshop.com’s
+                    millions of customers.
+                </p>
+                <div class="skills">
+                    <span class="active" onclick="contact1()">Contact Us</span>
+
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>
+
+<script>
+    function contact1() {
+        swal("mdvshop@gmail.com", "", "");
+    }
+</script>

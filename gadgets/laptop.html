@@ -1,0 +1,771 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+  <script src="../bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="../bootstrap/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+  <script src="../bootstrap/sweetalert.min.js"></script>
+  <title>MY SHOP</title>
+</head>
+<style>
+  .nav-item:hover {
+    background-color: #53BF9D;
+  }
+</style>
+
+<body style="background-color:#D4F6CC">
+  <nav class="navbar navbar-expand-lg " style="background-color: #0F3D3E;">
+    <div class="container-fluid">
+      <h2 class="navbar-brand text-white"> MDV <i class="fas fa-shopping-bag" style="color: orange ;"></i> SHOP</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse container" id="navbarNavDropdown" style="margin-left: 20%; padding:10px;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fs-4 text-white" aria-current="page" href="../home.html"
+              style="border-right: solid thin black;"> <i class="fa fa-home" style="color:blue;"></i> HOME&nbsp;</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4 text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="border-right: solid thin black;">
+              <i class="fa fa-cog" style="color: gray;"></i> PRODUCTS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../products/men.html">Men</a></li>
+              <li><a class="dropdown-item" href="../products/women.html">Women</a></li>
+              <li><a class="dropdown-item" href="../products/kids.html">Kids</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4 text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="border-right: solid thin black;">
+              <i class="fa fa-mobile" style="color: green;"></i> GADGETS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="laptop.html">Laptops</a></li>
+              <li><a class="dropdown-item" href="mobile.html">Mobile</a></li>
+            </ul>
+          </li>&nbsp;
+          <li class="nav-item">
+            <a class="nav-link fs-4 text-white" aria-current="page" href="../about.html"
+              style="border-right: solid thin black;"><i class="fa fa-user"
+                style="color: rgba(236, 90, 32, 0.342);"></i> ABOUT US</a>
+          </li>&nbsp;
+          <li class="nav-item">
+            <a class="nav-link fs-4 text-white" aria-current="page" href="../cart.html"><i class="fa fa-shopping-cart"
+                style="color:red;"></i> CART</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+  <section class="container">
+    <h2 class="text-center fw-bod">LAPTOPS</h2>
+    <hr>
+
+    <!------------------------ 1st ROw ------------------------------>
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop1.jpg" alt="" width="90%" height="250px">
+          <h4 class="text-center">SONY</h4>
+          <p class="text-secondary"> ₱ 35,000.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop1">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop2.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">COMPAO</h4>
+          <p class="text-secondary"> ₱ 36,400</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop2">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3" style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop3.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">IBM</h4>
+          <p class="text-secondary"> ₱ 48,850.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop3">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop4.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">DELL VOSTRO</h4>
+          <p class="text-secondary"> ₱ 48,789.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop4">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <!------------------------ 2nd ROw ------------------------------>
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop5.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">VAIO F15</h4>
+          <p class="text-secondary"> ₱ 40,780.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop5">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop6.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">LENOVO</h4>
+          <p class="text-secondary"> ₱ 22,400.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop6">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop7.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">TOSHIBA</h4>
+          <p class="text-secondary"> ₱ 29,500.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop7">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop8.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">SMALL FUJITSU </h4>
+          <p class="text-secondary"> ₱ 55,490.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop8">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------ 3RD ROw ------------------------------>
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop9.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">TOPOSH TOUCH CREEN</h4>
+          <p class="text-secondary"> ₱ 89,000.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop9">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop10.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">SINGER SRI LANKA</h4>
+          <p class="text-secondary"> ₱ 75,800.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop10">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop11.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">HLC</h4>
+          <p class="text-secondary"> ₱ 57,000.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop11">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop12.jpg" alt="" width="80%" "  height=" 250px">
+          <h4 class="text-center">LG</h4>
+          <p class="text-secondary"> ₱ 54,900.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop12">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <!----------------------- 4TH ROw ------------------------------->
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop13.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">ASPIRE</h4>
+          <p class="text-secondary"> ₱ 40,000.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop13">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop14.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">HP</h4>
+          <p class="text-secondary"> ₱ 29,600.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop14">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop15.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">ASUS</h4>
+          <p class="text-secondary"> ₱ 27,000.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop15">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop16.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">ACER</h4>
+          <p class="text-secondary"> ₱ 46,000.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop16">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------- 5 TH ROw ------------------------------->
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop17.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">MSI KATANA</h4>
+          <p class="text-secondary"> ₱ 43,000.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop17">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop18.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">Brown Shoes</h4>
+          <p class="text-secondary"> ₱ 2,859.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop18">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop19.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">MSI INTEL</h4>
+          <p class="text-secondary"> ₱ 65,000.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop19">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/gadgets/laptop20.jpg" alt="" width="80%" height="250px">
+          <h4 class="text-center">MSI GL63</h4>
+          <p class="text-secondary"> ₱ 88,000.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#laptop20">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MODAL 1 -->
+    <div class="modal" tabindex="-1" id="laptop1">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop1.jpg" alt="" width="90%" height="250px">
+            <h4 class="text-center">SONY</h4>
+            <p class="text-secondary"> ₱ 35,000.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 2 -->
+    <div class="modal" tabindex="-1" id="laptop2">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop2.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">COMPAO</h4>
+            <p class="text-secondary"> ₱ 36,400</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 3 -->
+    <div class="modal" tabindex="-1" id="laptop3">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop3.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">IBM</h4>
+            <p class="text-secondary"> ₱ 48,850.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 4 -->
+    <div class="modal" tabindex="-1" id="laptop4">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop4.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">DELL VOSTRO</h4>
+            <p class="text-secondary"> ₱ 48,789.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 5 -->
+    <div class="modal" tabindex="-1" id="laptop5">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop5.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">VAIO F15</h4>
+            <p class="text-secondary"> ₱ 40,780.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 6 -->
+    <div class="modal" tabindex="-1" id="laptop6">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop6.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">LENOVO</h4>
+            <p class="text-secondary"> ₱ 22,400.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 7 -->
+    <div class="modal" tabindex="-1" id="laptop7">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop7.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">TOSHIBA</h4>
+            <p class="text-secondary"> ₱ 29,500.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 8 -->
+    <div class="modal" tabindex="-1" id="laptop8">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop8.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">SMALL FUJITSU </h4>
+            <p class="text-secondary"> ₱ 55,490.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 9 -->
+    <div class="modal" tabindex="-1" id="laptop9">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop9.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">TOPOSH TOUCH CREEN</h4>
+            <p class="text-secondary"> ₱ 89,000.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 10 -->
+    <div class="modal" tabindex="-1" id="laptop10">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop10.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">SINGER SRI LANKA</h4>
+            <p class="text-secondary"> ₱ 75,800.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 11 -->
+    <div class="modal" tabindex="-1" id="laptop11">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop11.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">HLC</h4>
+            <p class="text-secondary"> ₱ 57,000.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 12 -->
+    <div class="modal" tabindex="-1" id="laptop12">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop12.jpg" alt="" width="80%" "  height=" 250px">
+            <h4 class="text-center">LG</h4>
+            <p class="text-secondary"> ₱ 54,900.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 13 -->
+    <div class="modal" tabindex="-1" id="laptop13">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop13.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">ASPIRE</h4>
+            <p class="text-secondary"> ₱ 40,000.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 14 -->
+    <div class="modal" tabindex="-1" id="laptop14">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop14.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">HP</h4>
+            <p class="text-secondary"> ₱ 29,600.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 15 -->
+    <div class="modal" tabindex="-1" id="laptop15">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop15.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">ASUS</h4>
+            <p class="text-secondary"> ₱ 27,000.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 16 -->
+    <div class="modal" tabindex="-1" id="laptop16">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop16.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">ACER</h4>
+            <p class="text-secondary"> ₱ 46,000.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 17 -->
+    <div class="modal" tabindex="-1" id="laptop17">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop17.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">MSI KATANA</h4>
+            <p class="text-secondary"> ₱ 43,000.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 18 -->
+    <div class="modal" tabindex="-1" id="laptop18">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop18.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">Brown Shoes</h4>
+            <p class="text-secondary"> ₱ 2,859.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 19 -->
+    <div class="modal" tabindex="-1" id="laptop19">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop19.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">MSI INTEL</h4>
+            <p class="text-secondary"> ₱ 65,000.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 20-->
+    <div class="modal" tabindex="-1" id="laptop20">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/gadgets/laptop20.jpg" alt="" width="80%" height="250px">
+            <h4 class="text-center">MSI GL63</h4>
+            <p class="text-secondary"> ₱ 88,000.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+    <!---------------------- BUY NOW MODAL----------------------->
+    <div class="modal" tabindex="-1" id="BuyNow1">
+      <div class="modal-dialog">
+        <div class="modal-content" style="background-color: #D4F6CC;">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">Shipping Address</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <input type="text" placeholder="Name" class="form-control"><br>
+            <input type="ntext" placeholder="Address" class="form-control"><br>
+            <input type="number" placeholder="Contact Number" class="form-control"><br>
+            <input type="number" placeholder="Zip Code" class="form-control"><br>
+            <input type="number" placeholder="Quantity" class="form-control"><br>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-danger" onclick="BuyNow()">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
+
+
+<script>
+  function BuyNow1() {
+    $('#BuyNow1').modal('show')
+
+  }
+
+  function BuyNow() {
+    swal("PLACED AN ORDER", "", "success");
+    $('#BuyNow1').modal('hide')
+    setTimeout("location.href = '../home.html';", 2500);
+  }
+  s
+
+  function cartBtn() {
+    alert('ADDED TO CART')
+    setTimeout(function () {
+      window.location.reload(), 5000
+    });
+
+  }
+
+  function cartBtn() {
+    swal("ADDED TO CART", "", "success");
+    $('#laptop1').modal('hide')
+    $('#laptop2').modal('hide')
+    $('#laptop3').modal('hide')
+    $('#laptop4').modal('hide')
+    $('#laptop5').modal('hide')
+    $('#laptop6').modal('hide')
+    $('#laptop7').modal('hide')
+    $('#laptop8').modal('hide')
+    $('#laptop9').modal('hide')
+    $('#laptop10').modal('hide')
+    $('#laptop11').modal('hide')
+    $('#laptop12').modal('hide')
+    $('#laptop13').modal('hide')
+    $('#laptop14').modal('hide')
+    $('#laptop15').modal('hide')
+    $('#laptop16').modal('hide')
+    $('#laptop17').modal('hide')
+    $('#laptop18').modal('hide')
+    $('#laptop19').modal('hide')
+    $('#laptop20').modal('hide')
+
+  }
+</script>

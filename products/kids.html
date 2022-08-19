@@ -1,0 +1,745 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+  <script src="../bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="../bootstrap/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+  <script src="../bootstrap/sweetalert.min.js"></script>
+  <title>MY SHOP</title>
+</head>
+<style>
+  .nav-item:hover {
+    background-color: #53BF9D;
+  }
+</style>
+
+<body style="background-color:#D4F6CC">
+  <nav class="navbar navbar-expand-lg " style="background-color: #0F3D3E;">
+    <div class="container-fluid">
+      <h2 class="navbar-brand text-white"> MDV <i class="fas fa-shopping-bag" style="color: orange ;"></i> SHOP</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse container" id="navbarNavDropdown" style="margin-left: 20%; padding:10px;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fs-4 text-white" aria-current="page" href="../home.html"
+              style="border-right: solid thin black;"> <i class="fa fa-home" style="color:blue;"></i> HOME&nbsp;</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4 text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="border-right: solid thin black;">
+              <i class="fa fa-cog" style="color: gray;"></i> PRODUCTS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="men.html">Men</a></li>
+              <li><a class="dropdown-item" href="women.html">Women</a></li>
+              <li><a class="dropdown-item" href="kids.html">Kids</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4 text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="border-right: solid thin black;">
+              <i class="fa fa-mobile" style="color: green;"></i> GADGETS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../gadgets/laptop.html">Laptops</a></li>
+              <li><a class="dropdown-item" href="../gadgets/mobile.html">Mobile</a></li>
+            </ul>
+          </li>&nbsp;
+          <li class="nav-item">
+            <a class="nav-link fs-4 text-white" aria-current="page" href="../about.html"
+              style="border-right: solid thin black;"><i class="fa fa-user"
+                style="color: rgba(236, 90, 32, 0.342);"></i> ABOUT US</a>
+          </li>&nbsp;
+          <li class="nav-item">
+            <a class="nav-link fs-4 text-white" aria-current="page" href="../cart.html"><i class="fa fa-shopping-cart"
+                style="color:red;"></i> CART</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+  <section class="container">
+    <h2 class="text-center fw-bod">KIDS PRODUCTS</h2>
+    <hr>
+
+    <!------------------------ 1st ROw ------------------------------>
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid1.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Toy Car</h4>
+          <p class="text-secondary"> ₱ 400.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid1">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid2.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Bears Stufftoys</h4>
+          <p class="text-secondary"> ₱ 780.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid2">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3" style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid3.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Barbie Doll Set</h4>
+          <p class="text-secondary"> ₱ 999.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid3">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid4.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Rocking Chair</h4>
+          <p class="text-secondary"> ₱ 3,890.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid4">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <!------------------------ 2nd ROw ------------------------------>
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid5.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Shirts for Kids</h4>
+          <p class="text-secondary"> ₱ 159.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid5">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid6.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Shoes for kids</h4>
+          <p class="text-secondary"> ₱ 279.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid6">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid7.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Superman Umbrella</h4>
+          <p class="text-secondary"> ₱ 189.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid7">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid8.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">SpongeBob Umbrella</h4>
+          <p class="text-secondary"> ₱ 199.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid8">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------ 3RD ROw ------------------------------>
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid9.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Panda Shirt</h4>
+          <p class="text-secondary"> ₱ 120.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid9">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid10.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Casual Dress for Kids</h4>
+          <p class="text-secondary"> ₱ 1,400.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid10">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid11.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Toddler</h4>
+          <p class="text-secondary"> ₱ 550.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid11">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid12.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Blue Shoes</h4>
+          <p class="text-secondary"> ₱ 549.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid12">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <!----------------------- 4TH ROw ------------------------------->
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid13.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Sandals for kids</h4>
+          <p class="text-secondary"> ₱ 879.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid13">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid14.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Unicorn Earings for Kids</h4>
+          <p class="text-secondary"> ₱ 89.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid14">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid15.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Color Earings</h4>
+          <p class="text-secondary"> ₱ 59.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid15">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid16.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Unicorn Rings for Kids</h4>
+          <p class="text-secondary"> ₱ 50.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid16">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------- 5 TH ROw ------------------------------->
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid17.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Pets Rings</h4>
+          <p class="text-secondary"> ₱ 45.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid17">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid18.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Pink Bike For Kids</h4>
+          <p class="text-secondary"> ₱ 4,400.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid18">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid19.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Books For Kids</h4>
+          <p class="text-secondary"> ₱ 129.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid19">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/kids/kid20.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Cute Bags for Kids</h4>
+          <p class="text-secondary"> ₱ 549.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#kid20">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 1 -->
+    <div class="modal" tabindex="-1" id="kid1">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid1.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Toy Car</h4>
+            <p class="text-secondary"> ₱ 400.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 2 -->
+    <div class="modal" tabindex="-1" id="kid2">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid2.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Bears Stufftoys</h4>
+            <p class="text-secondary"> ₱ 780.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 3 -->
+    <div class="modal" tabindex="-1" id="kid3">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid3.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Barbie Doll Set</h4>
+            <p class="text-secondary"> ₱ 999.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 4 -->
+    <div class="modal" tabindex="-1" id="kid4">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid4.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Rocking Chair</h4>
+            <p class="text-secondary"> ₱ 3,890.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 5 -->
+    <div class="modal" tabindex="-1" id="kid5">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid5.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Shirts for Kids</h4>
+            <p class="text-secondary"> ₱ 159.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 6 -->
+    <div class="modal" tabindex="-1" id="kid6">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid6.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Shoes for kids</h4>
+            <p class="text-secondary"> ₱ 279.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 7 -->
+    <div class="modal" tabindex="-1" id="kid7">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid7.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Superman Umbrella</h4>
+            <p class="text-secondary"> ₱ 189.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 8 -->
+    <div class="modal" tabindex="-1" id="kid8">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid8.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">SpongeBob Umbrella</h4>
+            <p class="text-secondary"> ₱ 199.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 9 -->
+    <div class="modal" tabindex="-1" id="kid9">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid9.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Panda Shirt</h4>
+            <p class="text-secondary"> ₱ 120.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 10 -->
+    <div class="modal" tabindex="-1" id="kid10">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid10.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Casual Dress for Kids</h4>
+            <p class="text-secondary"> ₱ 1,400.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 11 -->
+    <div class="modal" tabindex="-1" id="kid11">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid11.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Toddler</h4>
+            <p class="text-secondary"> ₱ 550.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 12 -->
+    <div class="modal" tabindex="-1" id="kid12">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid12.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Blue Shoes</h4>
+            <p class="text-secondary"> ₱ 549.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 13 -->
+    <div class="modal" tabindex="-1" id="kid13">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid13.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Sandals for kids</h4>
+            <p class="text-secondary"> ₱ 879.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 14 -->
+    <div class="modal" tabindex="-1" id="kid14">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid14.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Unicorn Earings for Kids</h4>
+            <p class="text-secondary"> ₱ 89.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 15 -->
+    <div class="modal" tabindex="-1" id="kid15">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid15.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Color Earings</h4>
+            <p class="text-secondary"> ₱ 59.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 16 -->
+    <div class="modal" tabindex="-1" id="kid16">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid16.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Unicorn Rings for Kids</h4>
+            <p class="text-secondary"> ₱ 50.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 17 -->
+    <div class="modal" tabindex="-1" id="kid17">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid17.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Pets Rings</h4>
+            <p class="text-secondary"> ₱ 45.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 18 -->
+    <div class="modal" tabindex="-1" id="kid18">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid18.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Pink Bike For Kids</h4>
+            <p class="text-secondary"> ₱ 4,400.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 19 -->
+    <div class="modal" tabindex="-1" id="kid19">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/kids/kid19.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Books For Kids</h4>
+            <p class="text-secondary"> ₱ 129.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------- BUY NOW MODAL----------------------->
+    <div class="modal" tabindex="-1" id="BuyNow1">
+      <div class="modal-dialog">
+        <div class="modal-content" style="background-color: #D4F6CC;">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">Shipping Address</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <input type="text" placeholder="Name" class="form-control"><br>
+            <input type="text" placeholder="Address" class="form-control"><br>
+            <input type="number" placeholder="Contact Number" class="form-control"><br>
+            <input type="number" placeholder="Zip Code" class="form-control"><br>
+            <input type="number" placeholder="Quantity" class="form-control"><br>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-danger" onclick="BuyNow()">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+</body>
+
+</html>
+
+
+<script>
+  function BuyNow1() {
+    $('#BuyNow1').modal('show')
+
+  }
+
+  function BuyNow() {
+    swal("PLACED AN ORDER", "", "success");
+    $('#BuyNow1').modal('hide')
+    setTimeout("location.href = '../home.html';", 2500);
+  }
+
+  function cartBtn() {
+    alert('ADDED TO CART')
+    setTimeout(function () {
+      window.location.reload(), 5000
+    });
+
+  }
+
+  function cartBtn() {
+    swal("ADDED TO CART", "", "success");
+    $('#kid1').modal('hide')
+    $('#kid2').modal('hide')
+    $('#kid3').modal('hide')
+    $('#kid4').modal('hide')
+    $('#kid5').modal('hide')
+    $('#kid6').modal('hide')
+    $('#kid7').modal('hide')
+    $('#kid8').modal('hide')
+    $('#kid9').modal('hide')
+    $('#kid10').modal('hide')
+    $('#kid11').modal('hide')
+    $('#kid12').modal('hide')
+    $('#kid13').modal('hide')
+    $('#kid14').modal('hide')
+    $('#kid15').modal('hide')
+    $('#kid16').modal('hide')
+    $('#kid17').modal('hide')
+    $('#kid18').modal('hide')
+    $('#kid19').modal('hide')
+    $('#kid20').modal('hide')
+
+  }
+</script>

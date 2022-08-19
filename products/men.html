@@ -1,0 +1,789 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+  <script src="../bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="../bootstrap/jquery-3.6.0.min.js"></script>
+  <link rel="stylesheet" href="../fontawesome/css/all.min.css">
+  <script src="../bootstrap/sweetalert.min.js"></script>
+  <title>MY SHOP</title>
+</head>
+<style>
+  .nav-item:hover {
+    background-color: #53BF9D;
+  }
+</style>
+
+<body style="background-color:#D4F6CC">
+  <nav class="navbar navbar-expand-lg " style="background-color: #0F3D3E;">
+    <div class="container-fluid">
+      <h2 class="navbar-brand text-white"> MDV <i class="fas fa-shopping-bag" style="color: orange ;"></i> SHOP</h2>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse container" id="navbarNavDropdown" style="margin-left: 20%; padding:10px;">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link fs-4 text-white" aria-current="page" href="../home.html"
+              style="border-right: solid thin black;"> <i class="fa fa-home" style="color:blue;"></i> HOME&nbsp;</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4 text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="border-right: solid thin black;">
+              <i class="fa fa-cog" style="color: gray;"></i> PRODUCTS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="men.html">Men</a></li>
+              <li><a class="dropdown-item" href="women.html">Women</a></li>
+              <li><a class="dropdown-item" href="kids.html">Kids</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle fs-4 text-white" href="#" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false" style="border-right: solid thin black;">
+              <i class="fa fa-mobile" style="color: green;"></i> GADGETS
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="../gadgets/laptop.html">Laptops</a></li>
+              <li><a class="dropdown-item" href="../gadgets/mobile.html">Mobile</a></li>
+            </ul>
+          </li>&nbsp;
+          <li class="nav-item">
+            <a class="nav-link fs-4 text-white" aria-current="page" href="../about.html"
+              style="border-right: solid thin black;"><i class="fa fa-user"
+                style="color: rgba(236, 90, 32, 0.342);"></i> ABOUT US</a>
+          </li>&nbsp;
+          <li class="nav-item">
+            <a class="nav-link fs-4 text-white" aria-current="page" href="../cart.html"><i class="fa fa-shopping-cart"
+                style="color:red;"></i> CART</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav><br>
+  <section class="container">
+    <h2 class="text-center fw-bod">MEN'S PRODUCTS</h2>
+    <hr>
+
+    <!------------------------ 1st ROw ------------------------------>
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men1.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Brown Shoes</h4>
+          <p class="text-secondary"> ₱ 2,859.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men1">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men2.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Men Suit</h4>
+          <p class="text-secondary"> ₱ 1,400.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men2">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3" style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men3.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Belt Black</h4>
+          <p class="text-secondary"> ₱ 1,089.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men3">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men4.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Cargo Short</h4>
+          <p class="text-secondary"> ₱ 1,290.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men4">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <!------------------------ 2nd ROw ------------------------------>
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men5.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Cleansing Face Wash</h4>
+          <p class="text-secondary"> ₱ 999.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men5">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men6.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Socks for Men</h4>
+          <p class="text-secondary"> ₱ 179.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men6">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men7.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Bohimian Polo Shirt</h4>
+          <p class="text-secondary"> ₱ 858.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men7">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men8.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Long Sleeve For Men</h4>
+          <p class="text-secondary"> ₱ 135.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men8">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!------------------------ 3RD ROw ------------------------------>
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men9.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Neck Tie</h4>
+          <p class="text-secondary"> ₱ 295.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men9">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men10.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Black Shade</h4>
+          <p class="text-secondary"> ₱ 829.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men10">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men11.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Seico</h4>
+          <p class="text-secondary"> ₱ 1,989.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men11">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men12.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Versace</h4>
+          <p class="text-secondary"> ₱ 3,500.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men12">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+    <!----------------------- 4TH ROw ------------------------------->
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men13.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Bleu Chanel</h4>
+          <p class="text-secondary"> ₱ 3,455.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men13">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men14.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Set Suit for Men</h4>
+          <p class="text-secondary"> ₱ 6,400.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men14">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men15.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Boxer Short</h4>
+          <p class="text-secondary"> ₱ 480.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men15">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men16.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Jeep Bag</h4>
+          <p class="text-secondary"> ₱ 2,079.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men16">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!----------------------- 5 TH ROw ------------------------------->
+    <div class="row container">
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men17.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Taslan Lace</h4>
+          <p class="text-secondary"> ₱ 440.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men17">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men18.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Bull-it Shirt</h4>
+          <p class="text-secondary"> ₱ 169.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men18">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men19.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Sport Shoes</h4>
+          <p class="text-secondary"> ₱ 5,880.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men19">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+      <div class="col-md-3 text-center">
+        <div class=" mb-3 " style="max-width: 18rem; border-right: solid black;">
+          <img src="../images/men/men20.jpg" alt="" width="70%" height="250px">
+          <h4 class="text-center">Winter Boots For Men</h4>
+          <p class="text-secondary"> ₱ 7,000.00</p>
+          <button class="btn btn-outline-danger" data-bs-toggle="modal" data-bs-target="#men20">Add to Cart</button>
+          <button class="btn btn-outline-dark" data-bs-toggle="modal" data-bs-target="#BuyNow1">Buy Now</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 1 -->
+    <div class="modal" tabindex="-1" id="men1">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men1.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Brown Shoes</h4>
+            <p class="text-secondary"> ₱ 2,859.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- MODAL 2 -->
+    <div class="modal" tabindex="-1" id="men2">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men2.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Men Suit</h4>
+            <p class="text-secondary"> ₱ 1,400.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 3-->
+    <div class="modal" tabindex="-1" id="men3">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men3.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Belt Black</h4>
+            <p class="text-secondary"> ₱ 1,089.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 4-->
+    <div class="modal" tabindex="-1" id="men4">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men4.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Cargo Short</h4>
+            <p class="text-secondary"> ₱ 1,290.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 5-->
+    <div class="modal" tabindex="-1" id="men5">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men5.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Cleansing Face Wash Set</h4>
+            <p class="text-secondary"> ₱ 999.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 6-->
+    <div class="modal" tabindex="-1" id="men6">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men6.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Socks for Men</h4>
+            <p class="text-secondary"> ₱ 179.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 7-->
+    <div class="modal" tabindex="-1" id="men7">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men7.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Bohimian Polo Shirt</h4>
+            <p class="text-secondary"> ₱ 858.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 8-->
+    <div class="modal" tabindex="-1" id="men8">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men8.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Long Sleeve For Men</h4>
+            <p class="text-secondary"> ₱ 135.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 9-->
+    <div class="modal" tabindex="-1" id="men9">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men9.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Neck Tie</h4>
+            <p class="text-secondary"> ₱ 295.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 10-->
+    <div class="modal" tabindex="-1" id="men10">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men10.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Black Shade</h4>
+            <p class="text-secondary"> ₱ 829.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 11-->
+    <div class="modal" tabindex="-1" id="men11">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men11.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Seico</h4>
+            <p class="text-secondary"> ₱ 1,989.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 12-->
+    <div class="modal" tabindex="-1" id="men12">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men12.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Versace</h4>
+            <p class="text-secondary"> ₱ 3,500.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 13-->
+    <div class="modal" tabindex="-1" id="men13">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men13.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Bleu Chanel</h4>
+            <p class="text-secondary"> ₱ 3,455.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 14-->
+    <div class="modal" tabindex="-1" id="men14">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men14.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Set Suit for Men</h4>
+            <p class="text-secondary"> ₱ 6,400.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 15-->
+    <div class="modal" tabindex="-1" id="men15">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men15.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Boxer Short</h4>
+            <p class="text-secondary"> ₱ 480.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 16-->
+    <div class="modal" tabindex="-1" id="men16">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men16.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Jeep Bag</h4>
+            <p class="text-secondary"> ₱ 2,079.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 17-->
+    <div class="modal" tabindex="-1" id="men17">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men17.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Taslan Lace</h4>
+            <p class="text-secondary"> ₱ 440.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 18-->
+    <div class="modal" tabindex="-1" id="men18">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men18.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Bull-it Shirt</h4>
+            <p class="text-secondary"> ₱ 169.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 19-->
+    <div class="modal" tabindex="-1" id="men19">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men19.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Sport Shoes</h4>
+            <p class="text-secondary"> ₱ 5,880.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- MODAL 20-->
+    <div class="modal" tabindex="-1" id="men20">
+      <div class="modal-dialog">
+        <div class="modal-content text-center" style="background-color: #FFF8BC; font-family: 'Lora', serif;">
+          <div class="modal-header">
+            <h5 class="modal-title text-center">CART</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="../images/men/men20.jpg" alt="" width="70%" height="250px">
+            <h4 class="text-center">Winter Boots For Men</h4>
+            <p class="text-secondary"> ₱ 7,000.00</p>
+          </div>
+          <div class="modal-footer justify-content-center">
+
+            <button type="button" class="btn btn-warning" onclick="cartBtn()">Add to Cart</button>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!---------------------- BUY NOW MODAL----------------------->
+    <div class="modal" tabindex="-1" id="BuyNow1">
+      <div class="modal-dialog">
+        <div class="modal-content" style="background-color: #D4F6CC;">
+          <div class="modal-header">
+            <h5 class="modal-title fw-bold">Shipping Address</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body text-center">
+            <input type="text" placeholder="Name" class="form-control"><br>
+            <input type="text" placeholder="Address" class="form-control"><br>
+            <input type="number" placeholder="Contact Number" class="form-control"><br>
+            <input type="number" placeholder="Zip Code" class="form-control"><br>
+            <input type="number" placeholder="Quantity" class="form-control"><br>
+          </div>
+          <div class="modal-footer justify-content-center">
+            <button type="button" class="btn btn-danger" onclick="BuyNow()">Buy Now</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+</body>
+
+</html>
+
+
+<script>
+  function BuyNow1() {
+    $('#BuyNow1').modal('show')
+
+  }
+
+  function BuyNow() {
+    swal("PLACED AN ORDER", "", "success");
+    $('#BuyNow1').modal('hide')
+    setTimeout("location.href = '../home.html';", 2500);
+  }
+
+  function cartBtn() {
+    alert('ADDED TO CART')
+    setTimeout(function () {
+      window.location.reload(), 5000
+    });
+
+  }
+  function cartBtn() {
+    swal("ADDED TO CART", "", "success");
+    $('#men1').modal('hide')
+    $('#men2').modal('hide')
+    $('#men3').modal('hide')
+    $('#men4').modal('hide')
+    $('#men5').modal('hide')
+    $('#men6').modal('hide')
+    $('#men7').modal('hide')
+    $('#men8').modal('hide')
+    $('#men9').modal('hide')
+    $('#men10').modal('hide')
+    $('#men11').modal('hide')
+    $('#men12').modal('hide')
+    $('#men13').modal('hide')
+    $('#men14').modal('hide')
+    $('#men15').modal('hide')
+    $('#men16').modal('hide')
+    $('#men17').modal('hide')
+    $('#men18').modal('hide')
+    $('#men19').modal('hide')
+    $('#men20').modal('hide')
+
+  }
+</script>
